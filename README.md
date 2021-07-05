@@ -9,7 +9,7 @@ This project contains an implementation of a simple repository for Items.
 
 The application is implemented as a Spring Boot application using an in memory H2 Database Engine to store the data. 
 
-The application is structured in a controller package with an ItemController that exposes a REST endpoint with one GET Items method. A model package with the data model.
+The application is structured in a controller package with an ItemController that exposes REST endpoints. A model package with the data model.
 
 *To check the API documentation use the Swagger.*
 
