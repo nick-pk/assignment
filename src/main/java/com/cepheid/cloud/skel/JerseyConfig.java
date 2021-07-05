@@ -23,7 +23,7 @@ public class JerseyConfig extends ResourceConfig {
     packages("org.glassfish.jersey.examples.multipart");
     register(MultiPartFeature.class);
 
-    
+
     configureSwagger();    
     
   }
@@ -35,7 +35,7 @@ public class JerseyConfig extends ResourceConfig {
     register(SwaggerSerializers.class);
     BeanConfig beanConfig = new BeanConfig();
     beanConfig.setVersion("API " + "1.0");
-    beanConfig.setSchemes(new String[] { "https" });
+    beanConfig.setSchemes(new String[] { "http" });
     beanConfig.setHost("localhost:9443");
     beanConfig.setBasePath("/app");
     // comma separated string

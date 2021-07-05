@@ -14,12 +14,24 @@ import com.cepheid.cloud.skel.model.Item;
 @RunWith(SpringRunner.class)
 public class ItemControllerTest extends TestBase {
 
-  @Test
-  public void testGetItems() throws Exception {
-    Builder itemController = getBuilder("/app/api/1.0/items");
-    
-    Collection<Item> items = itemController.get(new GenericType<Collection<Item>>() {
-    });
 
+  @Test
+  public void getItems() {
+  }
+
+  @Test
+  public void getItem() {
+  }
+
+  @Test
+  public void createItem() {
+  }
+
+  @Test
+  public void updateItem() {
+  }
+
+  @Test
+  public void deleteItem() {
   }
 }
